@@ -1,0 +1,261 @@
+#page1 {
+  background-color: #f2f2f2;
+  overflow-x: hidden;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+}
+
+.new-sub-menu {
+  position: absolute;
+}
+
+#navpanel {
+  position: absolute;
+  max-height: 100vh;
+}
+
+ul.floating-share--nav {
+  position: absolute;
+}
+
+.ol_container {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  background: #212121;
+}
+
+.ol_big,
+.ol_small {
+  width: 100%;
+  position: absolute;
+}
+
+.ol_big {
+  width: 320px;
+  height: 480px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.ol_small {
+  width: 320px;
+  height: 150px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.ol_close_ad {
+  right: 3px;
+  width: 25px;
+  z-index: 99;
+  height: 25px;
+  position: absolute;
+  top: 3px;
+}
+
+.ol_big img,
+.ol_small img,
+.ol_close_ad img {
+  width: 100%;
+}
+
+.ol_big iframe,
+.ol_small iframe {
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.ol_big iframe {
+  width: 320px;
+  height: 480px;
+}
+
+.ol_small iframe {
+  width: 320px;
+  height: 150px;
+}
+
+.openLiftDown {
+  top: 0 !important;
+  position: relative !important;
+}
+
+.ol_swipe {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 20px;
+  color: #fff;
+  line-height: 2;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 1px;
+  background: #212121;
+  text-transform: uppercase;
+}
+
+.ol_landing {
+  position: absolute;
+  margin: 0 auto;
+  border: none;
+  border: none;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.ol_close_img {
+  background: rgba(85, 85, 85, 0.4);
+  border-radius: 50%;
+  padding: 5px;
+  pointer-events: none;
+  width: 100%;
+}
+
+.ol_close_wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9999999;
+  margin: 0 auto;
+}
+
+.ol_close_wrap--script {
+  width: 320px;
+}
+
+.ldHides {
+  display: none;
+}
+
+.ldShows {
+  display: block;
+}
+
+.liftdown .header.ldShow {
+  position: fixed;
+}
+
+.liftdown #navpanel.ldShow {
+  position: fixed;
+  top: 0;
+}
+
+.liftdown .header.ldHide,
+.liftdown .new-sub-menu.ldHide {
+  position: absolute;
+}
+
+.liftdown #navpanel.ldHide {
+  position: absolute;
+  top: 20px;
+}
+
+.liftdown ul.floating-share--nav.ldScrollUp {
+  position: absolute;
+  top: 0;
+}
+
+.liftdown .new-sub-menu.ldShow,
+.liftdown ul.floating-share--nav.ldScrollDown {
+  position: fixed;
+  top: 55px;
+}
+
+.liftdown .ol_container.ldShow {
+  height: 480px;
+}
+
+.liftdown #page1,
+.liftdown .ol_container,
+.liftdown .main {
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.liftdown #page1.ldShow,
+.liftdown .main.ldShow {
+  margin-top: 480px;
+}
+
+html.ldFreeze,
+.liftdown #page1.ldFreeze {
+  overflow: hidden;
+}
+
+body.liftdown.ldFreeze {
+  height: calc(100% - 480px);
+}
+
+html.ldUnfreeze,
+.liftdown #page1.ldUnfreeze {
+  height: auto;
+  overflow: unset;
+  overflow-x: hidden;
+}
+
+body.liftdown.ldUnfreeze {
+  height: auto;
+}
+
+.liftdown #page1.closeLd,
+.liftdown .main.closeLd {
+  margin-top: 0;
+}
+
+.liftdown .ol_container.closeLd {
+  height: 0;
+}
+
+.liftdown .banner1.scrolling.scrollingLd {
+  top: 55px !important;
+}
+
+.liftdown .floating-share--nav.scrollingLd {
+  position: fixed !important;
+  top: 55px !important;
+}
+
+/* ohayo */
+.ldohayo .main {
+  background: #fff;
+  overflow-x: hidden;
+  margin: 0;
+  z-index: 1;
+}
+
+.ldohayo header,
+.ldohayo .header {
+  position: relative;
+  right: 0 !important;
+}
+
+.ldohayo.scrollLd .header {
+  position: fixed;
+}
+
+.ldohayo .banner__top {
+  padding-top: 10px;
+}
+
+.ldohayo .ol_container {
+  z-index: 0;
+}
